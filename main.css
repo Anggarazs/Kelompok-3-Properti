@@ -518,3 +518,17 @@ a:hover {
     .container{
         grid-template-columns: auto auto;
 }
+@media screen and (min-width: 1240px) {
+  .footer-awal {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+   .container_rek{
+        padding: 100px 50px 100px;
+        
+          grid-template-columns: auto auto;
+  }
+    .container{
+        grid-template-columns: auto auto auto;
+}
