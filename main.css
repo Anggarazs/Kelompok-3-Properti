@@ -25,7 +25,7 @@ body {
 hr {
   padding: 30px 100px 0px 350px;
   height: 2px;
-  width: 600px;
+  width: 100%;
   padding: 0px;
   color: wheat;
 }
@@ -150,11 +150,11 @@ ul {
   background-color: #617176;
 }
 
-li {
+ul li {
   float: left;
 }
 
-li a {
+ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -384,7 +384,7 @@ iframe {
   width: 100%;
 }
 
-footereiddo {
+.footereiddo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
