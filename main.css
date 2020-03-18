@@ -495,12 +495,26 @@ a:hover {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .container_rek{
+        padding: 10px;
+        grid-template-columns: auto;
+  }
+    .container{
+        grid-template-columns: auto ;
+  }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 900px) {
   .footer-awal {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
+   .container_rek{
+        padding: 10px 50px 10px;
+        
+          grid-template-columns: auto;
+  }
+    .container{
+        grid-template-columns: auto auto;
 }
