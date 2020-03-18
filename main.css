@@ -444,7 +444,11 @@ a:hover {
   min-width: 12.5rem;
 }
 
-
+.footer-awal-item ul{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
 
 .footer-sosmed {
   padding: 0 20px;
