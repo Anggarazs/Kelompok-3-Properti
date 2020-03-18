@@ -133,4 +133,116 @@ hr {
   background-color: #ffffff;
   cursor: pointer;
 }
-/*# sourceMappingURL=main.css.map */
+
+footereiddo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  background-color: #555555;
+  color: #bbb;
+  line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 22px;
+}
+
+.footer-awal {
+  padding: 0px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-awal-item {
+  padding: 0px 5px;
+  min-width: 12.5rem;
+}
+
+@media screen and (min-width: 477px) {
+  .footer-awal {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .footer-awal {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.footer-sosmed {
+  padding: 0 20px;
+}
+
+.footer-sosmed-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 5px;
+}
+
+.footer-sosmed-list li {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.footer-copyright {
+  padding: 0px 30px;
+  background-color: #333333;
+}
+
+.footer-copyright-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-copyright-list li {
+  margin: 5px 10px;
+  white-space: nowrap;
+}
