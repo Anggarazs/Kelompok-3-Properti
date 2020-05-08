@@ -3,8 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '@/views/Home'
 import About from '@/views/About'
 import Documentation from '@/views/Documentation'
+import Contact from '@/views/Contact'
 import Rumah1 from '@/views/Rumah1'
-
 Vue.use(VueRouter)
 
 const routes = [
@@ -22,6 +22,11 @@ const routes = [
     path: '/documentation',
     name: 'documentation',
     component: Documentation
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact
   },
   {
     path: '/rumah1',

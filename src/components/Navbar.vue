@@ -19,7 +19,7 @@
                 <b-navbar-item tag="router-link" :to="{ path: '/about' }">
                     About
                 </b-navbar-item>
-                <b-navbar-item href="#">
+                <b-navbar-item tag="router-link" :to="{ path: '/contact' }">
                     Contact
                 </b-navbar-item>
             </b-navbar-dropdown>

@@ -1,5 +1,23 @@
 {
-    "rumah" :[
-        "id": "0"
+    "rumah": [
+        "id": "0",
+        "abbr": "Rumah1",
+        "name": "CLUSTER CONDOTEL",
+        "desc": "KULDEVEE CLUSTER, hunian eksklusif premium yang menghadirkan atmosfer CONTEMPORARY HOMES UPPER-CLAS
+                    LIVING.
+                    Kawasan seluas 2,
+                    3 Ha ini merupakan masterpiece dari Abdael Nusa Group di area Joglo-Meruya
+                    Selatan,
+                    Sebuah Green Concept yang secara Khusus diciptakan untuk keluarga urban modern yang mendambakan
+                    sebuah
+                    hunian yang berkualitas. LARGE-SCALE GREEN AREA Dikembangkan secara eksklusif hanya 112 rumah,
+                    CLOVER
+                    HILL merupakan private cluster eksklusif dengan jalan yang lebar, lingkungan tenang dan teduh
+                    ditengah
+                    hiruk pikuk perkotaan, serta derail elemen landscape yang menyatu mulai main gate, jalan, taman,
+                    dan
+                    lingkungan.",
+        "image": "1.jpg"
+        "link": "/rumah/rumah1"
     ]
 }

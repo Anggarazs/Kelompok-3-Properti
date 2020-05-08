@@ -5,7 +5,7 @@
         <div class="card-image">
           <figure class="image">
             <!--rumah1-->
-            <a href="Rumah1.vue">
+            <a tag="router-link" :to="{ path: '/rumah1' }">
               <img src="@/img/1.jpg">
             </a>
           </figure>
@@ -14,7 +14,7 @@
           <div class="content">
             <p>
               <span class="title is-4 is-capitalized">
-                <a href="rumah1.html" class="has-text-black">CLUSTER CONDOTEL</a>
+                <a tag="router-link" :to="{ path: '/rumah1' }" class="has-text-black">CLUSTER CONDOTEL</a>
               </span>
               <br />
               <span class="block">Jl. Banggeris</span>
@@ -53,6 +53,3 @@
     </div>
   </div>
 </template>
-<style lang="sass" scoped>
-
-</style>
