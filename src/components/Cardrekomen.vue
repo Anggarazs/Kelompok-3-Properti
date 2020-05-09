@@ -5,18 +5,18 @@
         <div class="card-image">
           <figure class="image">
             <!--rumah1-->
-            <a tag="router-link" :to="{ path: '/rumah1' }">
-              <img src="@/img/1.jpg">
-            </a>
+              <router-link :to="{ path: '/rumah1' }">
+                <img src="@/img/1.jpg">
+              </router-link>
           </figure>
         </div>
         <div class="result card-content">
           <div class="content">
             <p>
               <span class="title is-4 is-capitalized">
-                <a tag="router-link" :to="{ path: '/rumah1' }" class="has-text-black">CLUSTER CONDOTEL</a>
+                <a class="has-text-black">CLUSTER CONDOTEL</a>
               </span>
-              <br />
+              <br>
               <span class="block">Jl. Banggeris</span>
             </p>
             <p>
@@ -32,9 +32,9 @@
         <div class="card-image">
           <figure class="image">
             <!--rumah 2-->
-            <a href="rumah2.html">
+            <router-link :to="{ path: '/rumah1' }">
               <img src="@/img/2.jpg" class="bundar">
-            </a>
+            </router-link>
           </figure>
         </div>
         <div class="result card-content">

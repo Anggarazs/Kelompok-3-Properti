@@ -4,7 +4,7 @@
             <div class="column is-7">
                 <!--gambar-->
                 <figure class="image">
-                    <img src="img/1.jpg">
+                    <img src="@/img/1.jpg">
                 </figure>
                 <br>
                 <section class="section-kiri">
@@ -29,8 +29,8 @@
                     </p>
                 </section>
             </div>
-            <div class="kolom-kanan">
-                <section class="kolom-data">
+            <div class="container">
+                <section class="section-padding">
                     <h3 class="title is-5">Marketing Galeri</h3>
                     <a>
                         <span class="icon is-small">
@@ -45,7 +45,8 @@
                         Jl. Banggeris Kec. Sungai Kunjang, Kota Samarinda, Kalimantan Timur
                     </p>
                 </section>
-                <section class="kolom-data">
+                <br>
+                <section class="section-padding">
                     <h3 class="title is-5">Details</h3>
                     <p>
                         Kamar Tidur: <b>8</b>
@@ -63,7 +64,8 @@
                         Lahan(m2): <b>100</b>
                     </p>
                 </section>
-                <section class="kolom-data">
+                <br>
+                <section class="section-padding">
                     <h3 class="title is-5">Fasilitas</h3>
                     <p>
                         Free Wifi
@@ -78,7 +80,8 @@
                         Kolam Berenang
                     </p>
                 </section>
-                <section class="kolom-data">
+                <br>
+                <section class="section-padding">
                     <h3 class="title is-5">Lokasi</h3>
                     <figure class="image">
                         <iframe class="his-ratio" frameborder="0" allowfullscreen

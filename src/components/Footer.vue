@@ -1,6 +1,5 @@
 <template>
-<section class="section">
-    <footer is-bottom>
+    <footer class="footer">
             <div class="container is-fullhd">
                 <div class="columns is-centered">
                     <div class="column is-4">
@@ -43,5 +42,4 @@
                 </div>
             </div>
     </footer>
-</section>
 </template>
