@@ -14,24 +14,24 @@
             </router-link>
           </div>
           <div class="column is-4">
-            <a href="#">
+            <router-link :to="{ path: '/documentation/galeri3' }">
               <img src="@/img/3.jpg" alt />
-            </a>
+            </router-link>
           </div>
           <div class="column is-4">
-            <a href="#">
+            <router-link :to="{ path: '/documentation/galeri4' }">
               <img src="@/img/4.jpg" alt />
-            </a>
+            </router-link>
           </div>
           <div class="column is-4">
-            <a href="#">
+            <router-link :to="{ path: '/documentation/galeri5' }">
               <img src="@/img/5.jpg" alt />
-            </a>
+            </router-link>
           </div>
           <div class="column is-4">
-            <a href="#">
+            <router-link :to="{ path: '/documentation/galeri6' }">
               <img src="@/img/6.jpg" alt />
-            </a>
+            </router-link>
           </div>
         </div>
       </div>

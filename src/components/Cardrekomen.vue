@@ -32,7 +32,7 @@
         <div class="card-image">
           <figure class="image">
             <!--rumah 2-->
-            <router-link :to="{ path: '/rumah1' }">
+            <router-link :to="{ path: '/rumah2' }">
               <img src="@/img/2.jpg" class="bundar">
             </router-link>
           </figure>
@@ -41,7 +41,7 @@
           <div class="content">
             <p>
               <span class="title is-4 is-capitalized">
-                <a href="rumah2.html" class="has-text-black">YUKATA SUITES</a>
+                <a class="has-text-black">YUKATA SUITES</a>
               </span>
               <br />
               <span class="block">Jl. P. Antasari</span>

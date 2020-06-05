@@ -11,9 +11,9 @@
                         <div class="card-image">
                             <figure class="image">
                                 <!--rumah 3-->
-                                <a href="rumah3.html">
+                                <router-link :to="{ path: '/rumah3' }">
                                     <img src="@/img/3.jpg" class="bundar">
-                                </a>
+                                </router-link>
                             </figure>
                         </div>
                         <!--rumah3 -->
@@ -21,7 +21,7 @@
                             <div class="content">
                                 <p>
                                     <span class="title is-4 is-capitalized">
-                                        <a href="rumah3.html" class="has-text-black">ADYA VALLEY</a>
+                                        <router-link :to="{ path: '/rumah3' }" class="has-text-black">ADYA VALLEY</router-link>
                                     </span>
                                     <br>
                                     <span class="block">Jl. Perjuangan</span>
@@ -39,16 +39,16 @@
                         <div class="card-image">
                             <!--rumah 4-->
                             <figure class="image">
-                                <a href="rumah4.html">
+                                <router-link :to="{ path: '/rumah4' }">
                                     <img src="@/img/4.jpg" class="bundar">
-                                </a>
+                                </router-link>
                             </figure>
                         </div>
                         <div class="result card-content">
                             <div class="content">
                                 <p>
                                     <span class="title is-4 is-capitalized">
-                                        <a href="rumah4.html" class="has-text-black">MARBELLA</a>
+                                        <router-link :to="{ path: '/rumah4' }" class="has-text-black">MARBELLA</router-link>
                                     </span>
                                     <br>
                                     <span class="block">Jl. Banggeris</span>
@@ -66,16 +66,16 @@
                         <div class="card-image">
                             <figure class="image">
                                 <!--rumah 5-->
-                                <a href="rumah5.html">
+                                <router-link :to="{ path: '/rumah5' }">
                                     <img src="@/img/5.jpg" class="bundar">
-                                </a>
+                                </router-link>
                             </figure>
                         </div>
                         <div class="result card-content">
                             <div class="content">
                                 <p>
                                     <span class="title is-4 is-capitalized">
-                                        <a href="rumah5.html" class="has-text-black">QUILLY NAXX</a>
+                                        <router-link :to="{ path: '/rumah5' }" class="has-text-black">QUILLY NAXX</router-link>
                                     </span>
                                     <br>
                                     <span class="block">Jl. Banggeris</span>
@@ -93,16 +93,16 @@
                         <div class="card-image">
                             <figure class="image">
                                 <!--rumah 6-->
-                                <a href="rumah6.html">
+                                <router-link :to="{ path: '/rumah6' }">
                                     <img src="@/img/6.jpg" class="bundar">
-                                </a>
+                                </router-link>
                             </figure>
                         </div>
                         <div class="result card-content">
                             <div class="content">
                                 <p>
                                     <span class="title is-4 is-capitalized">
-                                        <a href="rumah6.html" class="has-text-black">INTERNO TAIL</a>
+                                        <router-link :to="{ path: '/rumah6' }" class="has-text-black">INTERNO TAIL</router-link>
                                     </span>
                                     <br>
                                     <span class="block">Jl. Banggeris</span>
@@ -120,16 +120,16 @@
                         <div class="card-image">
                             <!--rumah 7-->
                             <figure class="image">
-                                <a href="rumah7.html">
+                                <router-link :to="{ path: '/rumah7' }">
                                     <img src="@/img/7.jpeg" class="bundar">
-                                </a>
+                                </router-link>
                             </figure>
                         </div>
                         <div class="result card-content">
                             <div class="content">
                                 <p>
                                     <span class="title is-4 is-capitalized">
-                                        <a href="rumah7.html" class="has-text-black">KULDEVEE CLUSTER</a>
+                                        <router-link :to="{ path: '/rumah7' }" class="has-text-black">KULDEVEE CLUSTER</router-link>
                                     </span>
                                     <br>
                                     <span class="block">Jl. Banggeris</span>
@@ -147,16 +147,16 @@
                         <div class="card-image">
                             <figure class="image">
                                 <!--rumah 8-->
-                                <a href="rumah8.html">
+                                <router-link :to="{ path: '/rumah8' }">
                                     <img src="@/img/8.jpg" class="bundar">
-                                </a>
+                                </router-link>
                             </figure>
                         </div>
                         <div class="result card-content">
                             <div class="content">
                                 <p>
                                     <span class="title is-4 is-capitalized">
-                                        <a href="rumah8.html" class="has-text-black">HOLBORN GROUP</a>
+                                        <router-link :to="{ path: '/rumah8' }" class="has-text-black">HOLBORN GROUP</router-link>
                                     </span>
                                     <br>
                                     <span class="block">Jl. Banggeris</span>
