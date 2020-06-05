@@ -117,7 +117,7 @@
 import Komen from '@/components/Komen.vue'
 
 export default {
-  name: 'Rumah1',
+  name: 'Rumah3',
   components: {
     Komen
   }
