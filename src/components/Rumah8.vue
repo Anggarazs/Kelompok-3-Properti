@@ -84,7 +84,43 @@
                         </iframe>
                     </figure>
                 </section>
+                <section class="section-paddingless">
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                    <figure class="image is-48x48">
+                        <img src="@/img/avatar.jpeg">
+                    </figure>
+                    </div>
+                    <div class="media-content">
+                    <p class="title is-4">Anggara Azis Saputra</p>
+                    <p class="subtitle is-6 has-text-primary">Premium User</p>
+                    </div>
+                </div>
+                    <a href="https://api.whatsapp.com/send?phone=6282151510448&text=Saya%20ingin%20bertanya%20apakah%20properti%20ini%20masih%20tersedia?">
+                        <b-button class="button is-primary">
+                            <span class="b-icon is-small">
+                            <i class="fab fa-whatsapp"></i>
+                            </span>
+                            <span>CHAT SEKARANG</span>
+                        </b-button>
+                    </a>
             </div>
         </div>
-    </section>
+        </section>
+      </div>
+    </div>
+  </section>
 </template>
+
+<script>
+import Komen from '@/components/Komen.vue'
+
+export default {
+  name: 'Rumah8',
+  components: {
+    Komen
+  }
+}
+</script>
