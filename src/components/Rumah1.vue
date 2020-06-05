@@ -27,7 +27,6 @@
             dan
             lingkungan.
           </p>
-          <komen></komen>
         </section>
       </div>
       <div class="container">
