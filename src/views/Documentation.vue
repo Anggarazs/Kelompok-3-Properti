@@ -5,13 +5,13 @@
         <h2 class="title has-text-centered">Gallery</h2>
         <div class="columns is-multiline">
           <div class="column is-4">
-            <a href="#">
-                <img src="@/img/1.jpg" alt></a>
+            <router-link :to="{ path: '/documentation/galeri1' }">
+                <img src="@/img/1.jpg" alt></router-link>
           </div>
           <div class="column is-4">
-            <a href="#">
+            <router-link :to="{ path: '/documentation/galeri2' }">
               <img src="@/img/2.jpg" alt />
-            </a>
+            </router-link>
           </div>
           <div class="column is-4">
             <a href="#">
