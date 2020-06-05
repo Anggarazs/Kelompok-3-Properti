@@ -27,7 +27,6 @@
                         dan
                         lingkungan.
                     </p>
-                    <Komen></Komen>
                 </section>
             </div>
             <div class="kolom-kanan">
