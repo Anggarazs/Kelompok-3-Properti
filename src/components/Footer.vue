@@ -1,6 +1,6 @@
 <template>
-    <footer class="footer">
-            <div class="container is-fullhd">
+    <footer class="footer is-paddingless">
+            <div class="container is-fullhd is">
                 <div class="columns is-centered">
                     <div class="column is-4">
                         <p class="title is-4">About Us</p>
