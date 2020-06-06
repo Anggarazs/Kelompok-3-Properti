@@ -45,6 +45,7 @@
                         </span>
                         Jl. Banggeris Kec. Sungai Kunjang, Kota Samarinda, Kalimantan Timur
                     </p>
+                    </br>
                 </section>
                 <section class="kolom-data">
                     <h3 class="title is-5">Details</h3>
@@ -63,6 +64,7 @@
                     <p>
                         Lahan(m2): <b>60</b>
                     </p>
+                    </br>
                 </section>
                 <section class="kolom-data">
                     <h3 class="title is-5">Fasilitas</h3>
@@ -75,6 +77,7 @@
                     <p>
                         Taman Bermain
                     </p>
+                    </br>
                 </section>
                 <section class="kolom-data">
                     <h3 class="title is-5">Lokasi</h3>
