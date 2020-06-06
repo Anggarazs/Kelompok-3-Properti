@@ -9,8 +9,7 @@
               <input
                 class="input is-rounded"
                 type="text"
-                id="mySearch"
-                onkeyup="myFunction()"
+                v-model="searchString"
                 placeholder="Masukkan Jenis Properti, Alamat atau Deskripsi"
               />
               <span class="icon is-left">
